@@ -6,4 +6,4 @@ function ans{
 		},1000);
 	})
 }
-	ans().then((res)=>document.getElementById("output").innerHTML=`<h1>${res}</h1>`)
+	ans().then((res)=>document.getElementById("output").innerHTML=`<p>${res}</p>`)
